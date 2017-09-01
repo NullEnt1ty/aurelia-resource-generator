@@ -1,0 +1,1 @@
+# aurelia-resource-generator
