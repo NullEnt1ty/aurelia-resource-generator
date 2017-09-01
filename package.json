@@ -1,0 +1,22 @@
+{
+  "name": "aurelia-resource-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NullEnt1ty/aurelia-resource-generator.git"
+  },
+  "author": "Dominique Mattern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NullEnt1ty/aurelia-resource-generator/issues"
+  },
+  "homepage": "https://github.com/NullEnt1ty/aurelia-resource-generator#readme",
+  "devDependencies": {
+    "eslint-config-5minds": "^0.1.0"
+  }
+}
