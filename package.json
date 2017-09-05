@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "au-generate-resources": "src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NullEnt1ty/aurelia-resource-generator.git"
