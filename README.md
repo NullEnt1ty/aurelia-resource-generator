@@ -2,6 +2,8 @@
 
 A bundle config generator for Aurelia
 
+**This project is in an early stage of development! Things are not finished yet!**
+
 ## Motivation
 
 We all felt that pain at some point: You start a new Aurelia + RequireJS project
