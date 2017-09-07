@@ -105,7 +105,13 @@ exec('npm ls --parseable')
     return getAureliaResources(nodeModulePaths);
   })
   .then((aureliaResources) => {
-    console.log(sortAureliaConfigEntries(aureliaResources));
+    if (aureliaResources.length === 0) {
+      throw new Error('No Aurelia resource were found.');
+    }
+
+    const sortedAureliaResources = sortAureliaConfigEntries(aureliaResources);
+    const aureliaResourcesAsJson = JSON.stringify(sortedAureliaResources, null, 2);
+    console.log(aureliaResourcesAsJson);
   })
   .catch((error) => {
     console.error(error.message);
