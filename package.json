@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "au-generate-resources": "src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NullEnt1ty/aurelia-resource-generator.git"
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/NullEnt1ty/aurelia-resource-generator#readme",
   "devDependencies": {
     "eslint-config-5minds": "^0.1.0"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.1"
   }
 }
